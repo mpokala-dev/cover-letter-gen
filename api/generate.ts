@@ -1,6 +1,8 @@
 import Anthropic from '@anthropic-ai/sdk'
 import type { GenerateRequest, GenerateResponse } from '../src/types/index.ts'
 
+declare const process: { env: { ANTHROPIC_API_KEY?: string } }
+
 export const config = { runtime: 'edge' }
 
 const SYSTEM_PROMPT = `You are a brutally honest senior recruiter with 10 years of experience placing candidates at top-tier companies including Goldman Sachs, Barclays, Monzo, HSBC, and McKinsey. You owe the user honesty, not politeness. You are their trusted friend in the industry — you will say what a hiring manager would privately think but never say to the candidate's face.
