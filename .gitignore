@@ -4,3 +4,6 @@ dist
 .env.local
 coverage
 .vercel
+
+.vercel
+.env*
