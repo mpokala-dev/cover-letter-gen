@@ -1,6 +1,6 @@
 # AI Cover Letter Generator
 
-AI-powered cover letter generator with brutally honest recruiter feedback. Built with React 19, TypeScript, Tailwind CSS v4, and the Anthropic API.
+AI-powered cover letter generator with brutally honest recruiter feedback. Built with React 19, TypeScript, Tailwind CSS v4, and the Anthropic API.![CI](https://github.com/mpokala-dev/cover-letter-gen/actions/workflows/ci.yml/badge.svg)
 
 ## Features
 
