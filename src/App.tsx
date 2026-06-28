@@ -10,7 +10,7 @@ export default function App() {
   const isLoading = status === "loading";
 
   return (
-    <div className="min-h-screen bg-oklch(55.4% 0.046 257.417)">
+    <div className="min-h-screen bg-white">
       <main className="mx-auto max-w-2xl px-6 py-12">
         <header className="mb-8">
           <h1 className="text-2xl font-medium text-gray-900">
